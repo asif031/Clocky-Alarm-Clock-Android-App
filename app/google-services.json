@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "710300564645",
+    "firebase_url": "https://clocky-2ae64.firebaseio.com",
+    "project_id": "clocky-2ae64",
+    "storage_bucket": "clocky-2ae64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710300564645:android:250ee72f2c7847adfe214c",
+        "android_client_info": {
+          "package_name": "com.example.clocky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710300564645-hreuvi5bvqocs8qoi7aifcq1r0efvnb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clocky",
+            "certificate_hash": "6f1908b99e8caf13728c1336f525fcb96545a2d0"
+          }
+        },
+        {
+          "client_id": "710300564645-vfh3ifjos87jn14k2j4jmo8m4gniaom0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_65KjMLg_U6rHESulFX1apOw8aRbxDtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710300564645-vfh3ifjos87jn14k2j4jmo8m4gniaom0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

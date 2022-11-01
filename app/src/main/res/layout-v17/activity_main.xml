@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c6caec">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#c6caec"
+        android:headerBackground="#4a59d4" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#dc3b19"
+        android:checked="false"
+        android:onClick="OnToggleClicked" />
+
+    <Button
+        android:id="@+id/historyButt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d4d04a"
+        android:text="   Alarm History   "
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/stopwatchbutt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="#19dcdc"
+        android:onClick="openStopwatchActivity"
+        android:text="stopwatch"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/timerButt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#914ad4"
+        android:onClick="openTimerActivity"
+        android:text="timer"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/biobutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#4a59d4"
+        android:gravity="center"
+        android:text="  Developer's BIO?  " />
+
+
+</LinearLayout>
